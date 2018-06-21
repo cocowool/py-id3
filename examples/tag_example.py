@@ -1,10 +1,11 @@
 import sys
 
-sys.path.append('../src/')
+sys.path.append('/Users/rousseau/Projects/python.my/py-id3/src/pyID3')
 
-import pyID3
+import tag
 import os
 
+print(sys.path)
 path = "/Users/rousseau/shiqiang/Music/iTunes/iTunes Media/Music"
 
 def findMp3(path):
@@ -14,6 +15,8 @@ def findMp3(path):
             findMp3( os.path.join(path,f) )
         else:
             fh = open(os.path.join(path,f), "rb")
-            print(parse(fh))
+            print(tag.parse(fh))
+
+# print(tag)
 
 findMp3(path)
