@@ -1,8 +1,9 @@
 import sys
 
-sys.path.append('/Users/rousseau/Projects/python.my/py-id3/src/pyID3')
+# 这里改为自己本机 pyID3 的存储目录
+sys.path.insert(0, '~/Project/py-id3/src/pyID3')
 
-import tag
+from pyID3 import pyID3
 import os
 
 print(sys.path)
