@@ -1,12 +1,6 @@
 # Python read mp3 idv3 information
 
-多年以后发现自己之前创建的一个 Repo , 那就继续在这个 Repo 中更新吧。
+这个仓库将不再更新，如果需要 mp3 标签读取相关功能的，欢迎移步 [mp3tag](https://github.com/cocowool/mp3tag)
 
-## 特性
-* 支持读取某个文件夹下 mp3 文件的 idv3 信息
+This repo will never update, please visit [mp3tag](https://github.com/cocowool/mp3tag) for replace
 
-## Feature
-* Read mp3 idv3 information under specific folder
-
-## Reference
-* [ATool](https://github.com/Am0xil/ATool)
